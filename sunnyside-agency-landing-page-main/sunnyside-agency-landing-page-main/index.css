@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Soft-red:hsl(7, 99%, 70%);
+    --yellow:hsl(51, 100%, 49%);
+    --Dark-cyan:hsl(167, 40%, 24%);
+    --dark-blue:hsl(198, 62%, 26%);
+    --Dark-moderate-cyan:hsl(168, 34%, 41%);
+    --Very-dark-blue:hsl(212, 27%, 19%);
+    --Very-dark-grayish-blue:hsl(213, 9%, 39%);
+    --Dark-grayish-blue: hsl(232, 10%, 55%);
+    --Grayish-blue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+}
+.hamburger{ 
+    display: none;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/desktop/image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2.5rem;
+
+}
+.header-nav >h1{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: "Fraunces", serif;
+}
+.header-nav >nav >ul >li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 0.5rem;
+    padding: 0 1.5rem;
+}
+.header-nav >nav >ul >li >a{
+    text-decoration: none;
+    color: var(--White);
+    padding-bottom: 0.7rem;
+    
+}
+.header > h1{
+    text-align: center;
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-family: "Fraunces", serif;
+    font-size: 4rem;
+    color: var(--White);
+    word-spacing: 0.5rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 5rem;
+}
+.header> img{
+   margin-left: 40rem;
+   margin-top: -3rem;
+   width: 4%;
+}
+.button{
+    background-image: var(--White);
+    padding: 1rem 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    color: var(--Very-dark-blue);
+    text-transform: uppercase;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+
+.button:hover{
+color: var(--White);
+background: inherit;
+/* opacity: ;
+transition: opacity 5s ease; */
+border: 0.1rem solid var(--White);
+z-index: -1;    
+}
+.section-2{
+    width: 100%;
+    height: 100%;
+    
+}
+.section-2-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.section-2-container > div{
+    background: var(--White);
+    width: 50%;
+    height: 40rem;
+    position: relative;
+    cursor: pointer;
+    
+}
+.text{
+    font-family: "Fraunces", serif;
+    left: 5rem;
+    top: 6rem;
+    
+}
+.text >h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.text>p{
+    font-size: 1.2rem;
+}
+.text >h4>a{
+    margin-top: -2.5rem;
+    list-style: none;
+    text-decoration: none;
+    color: var(--Very-dark-blue);
+    text-transform: uppercase;
+    
+}
+.text >h4>a:hover{
+    border-bottom: 0.4rem solid var(--yellow);
+   border-radius: 0.2rem;
+}
+.text >h5>a{
+    margin-top: -2.5rem;
+    list-style: none;
+    text-decoration: none;
+    color: var(--Very-dark-blue);
+    text-transform: uppercase;
+    font-size: 1.0rem;
+    
+}
+.text >h5>a:hover{
+    border-bottom: 0.4rem solid var(--Soft-red);
+   border-radius: 0.2rem;
+}
+
+.section-2-container > div:nth-child(2){
+    background-image: url(./images/desktop/image-transform.jpg);
+    background-size: cover;
+}
+.section-2-container > div:nth-child(3){
+    background-image: url(./images/desktop/image-stand-out.jpg);
+    background-size: cover;
+}
+.section-2-container > div:nth-child(5){
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+}
+.section-2-container > div:nth-child(6){
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-size: cover;
+}
+.section-2-container >div >span{
+    position: absolute;
+    color: var(--Very-dark-blue);
+    bottom: 0;
+    left: 8rem;
+    right: 5rem;
+    text-align: center;
+    text-transform: none;
+    /* font-size: 1rem; */
+    font-family: "Fraunces", serif;
+    width: 69%;
+    padding-top: 50rem;
+}
+.section-2-container >div >span>h3{
+   font-size: 1.5rem;
+   margin-bottom: 2rem;
+}
+.section-2-container >div >span>p{
+    font-size: 1.0rem;
+    width: 60%;
+    margin-left: 7rem;
+ }
+.section-3{
+    width: 100%;
+    height: 100%;
+    /* margin-top: 5rem; */
+    justify-content: space-around;
+    margin: 5rem 2rem;
+    
+}
+.section-3 >h2{
+    text-align: center;
+    font-family: "Fraunces", serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: var(--Grayish-blue);
+    margin-bottom: 5rem;
+}
+.section-3-wrapper{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.section-3-wrapper, img{
+    border-radius: 50%;
+    margin-bottom: 3.0rem;
+}
+.section-3-wrapper, p{
+    font-family: "Barlow", sans-serif;
+    font-size: 1.1rem;
+    color: var(--Very-dark-blue);
+    margin-bottom: 5.0rem;
+    width: 100%;
+}
+.section-3-wrapper, h4{
+    font-family: "Fraunces", serif;
+    color: var(--Very-dark-blue);
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+.section-3-wrapper, span{
+    color: var(--Very-dark-grayish-blue);
+    font-family: "Barlow", sans-serif;
+    font-size: 0.8rem;
+}
+.section-4{
+    width: 109%;
+    height: 100%;
+    
+}
+.section-4-wrapper >div{
+    background: gold;
+    width: 24%;
+    height: 30rem;
+    display:inline-block;
+    
+    
+}
+.section-4-wrapper>div:nth-child(1){
+    background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+    background-size: cover;
+    margin-bottom: -4px;
+}
+.section-4-wrapper>div:nth-child(2){
+    background-image: url(./images/desktop/image-gallery-orange.jpg);
+    background-size: cover;
+    margin-left:-4px;
+    margin-right: -4px;
+    margin-bottom: -4px;
+}
+.section-4-wrapper>div:nth-child(3){
+    background-image: url(./images/desktop/image-gallery-cone.jpg);
+    background-size: cover;
+    margin-left:-4px;
+    /* margin-right: -4px; */
+    margin-bottom: -4px;
+}
+.section-4-wrapper>div:nth-child(4){
+    background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+    background-size: cover;
+    margin-bottom: -4px;
+    margin-left: -4rem;
+}
+.footer{
+    background: var(--Grayish-blue);
+    width: 100%;
+    color: var(--Very-dark-blue);
+
+}
+.footer-wrapper{
+    padding: 1rem 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-wrapper >p{
+    margin-bottom: 2rem;
+    margin-top: 2.0rem;
+    margin-left: 31rem;
+    text-transform: lowercase;
+    color: var(--Dark-grayish-blue);
+    font-size: 2rem;
+    font-weight: 800;
+}
+.footer-wrapper >ul{
+    text-align: center;
+    font-family: "Fraunces", serif;
+}
+
+.footer-wrapper >ul >li{
+    list-style-type: none;
+    display: inline;
+    margin-bottom: 5rem;
+}
+.footer-wrapper >ul >li >a{
+    text-decoration: none;
+    color: var(--Very-dark-grayish-blue);
+    margin-left: 1rem;
+    justify-content: center;
+    padding: 0.5rem;
+    
+}
+.footer-wrapper >ul >li >a:hover{
+    color: var(--White);
+}
+.footer-container >ul{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+   
+}
+.footer-container >ul >li{
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+    margin-top: 3.5rem;
+    
+}
+.footer-container >ul >li >a{
+    text-decoration: none;
+    
+}
+.footer-container >ul>li:hover{
+    background-color: var(--White);
+}
