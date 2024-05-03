@@ -11,7 +11,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: rgb(206, 205, 205) url("../img/abstract-background-design-black_53876-62802.avif") top right no-repeat;
+  background: rgb(255, 254, 254) url("../img/abstract-background-design-black_53876-62802.avif") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -27,12 +27,12 @@ body::before {
 }
 
 a {
-  color: rgb(13, 230, 121);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(53, 232, 136);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -78,7 +78,7 @@ h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.979);
 }
 
 #header h2 span {
@@ -183,7 +183,7 @@ h6 {
   font-family: "EB Garamond", sans-serif;
   font-size: 1.3rem;
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(255, 255, 255);
   white-space: nowrap;
   transition: 0.3s;
 }
