@@ -622,7 +622,37 @@ section .container {
     transform: rotate(360deg);
   }
 }
+.footer-sm a {
+  color: #000000;
+}
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  .footer-sm a i {
+    font-size: 1.6rem;
+  }
+}
+.footer-sm a:hover {
+  color: #000000;
+}
 
+.footer-bottom {
+  background-color: #000;
+}
+.footer-bottom__copyright {
+  color: #000000;
+  font-weight: 400;
+}
+.footer-bottom__copyright a {
+  color: #000000;
+  text-decoration: none;
+}
+.footer-bottom__copyright a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
 
 
 
