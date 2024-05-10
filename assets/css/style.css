@@ -654,9 +654,11 @@ section .container {
   text-decoration: underline;
 }
 
-.portfolio-box img {
+.portfolio-box img{
   width: 100%;
   height: 100%;
+}
+  
 
 
 
